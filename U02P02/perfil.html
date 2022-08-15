@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    * {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+    </style>
+    
+
+</head>
+<body>
+
+    <div class="contenedor">  
+            
+            <legend>Datos del usuario</legend><br>
+            <input type="text" value="ESTUDIANTE" readonly><br><br>
+
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" placeholder="Ingrese su nombre completo"><br>
+
+            <label for="number">Edad:</label><br>
+            <input type="text" placeholder="Ingrese su edad"><br>
+
+            <label for="text">E-mail:</label><br>
+            <input type="e-mail" placeholder="Ingrese su correo electronico"><br>
+
+            <label for="seleccionable">Nacionalidad:</label><br>
+            <select name="seleccionable" id="">
+                <option value="---">----</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Alemania">Alemania</option>
+                <option value="España" >España</option>
+                <option value="Francia">Francia</option>         
+            </select><br>
+            <label for="laboral">Condicion Laboral</label><br>
+            <select name="laboral" id="">
+                <option value="---">----</option>
+                <option value="partime">Trabajo Part time</option>
+                <option value="fulltime">Trabajo Full time</option>
+                <option value="desempleado">Desempleado</option>
+                <option value="busqlaboral">En busqueda laboral</option>
+            </select><br><br>
+
+            <legend>Gustos Personales</legend><br>
+
+            <label for="nombre">Gustos Musicales</label><br>
+            <input type="text" placeholder="Ingrese sus gustos Musicales"><br>
+            
+            <label for="comida">Comida preferida</label><br>
+            <select name="comidas" id=""><br>
+                <option value="---">----</option>
+                <option value="Hamburguesa">Hamburguesa</option>
+                <option value="pizza">Pizza</option>
+                <option value="Asado">Asado</option>
+                <option value="Pastas">Pasta</option>
+                <option value="">Milanesa c/Puré</option>
+            </select><br><br>
+            <input type="submit" value="Enviar"><br>
+            <input type="checkbox" class="check2">
+            <label for="check1">Recordar nombre de usuario</label><br>
+             
+    </div>
+</body>
+</html>
