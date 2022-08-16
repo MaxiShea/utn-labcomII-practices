@@ -28,13 +28,13 @@
 
         <!-- Contenedor principal -->
         <main>
-            <form action="">
+            <form class="formulario" action="">
                 <p><label for="nombre">Nombre:</label>
                 <input type="text" name="nombre" required></p>
                 <p><label for="email">Email:</label>
-                <input type="text" name="email" required ></p>
+                <input type="email" name="email" required ></p>
                 <p><label for="edad">Edad</label>
-                <input type="number" name="edad"></p>
+                <input type="number" name="edad" min="0" max="100"></p>
                 <p><label for="color">Color preferido</label>
                 <input type="text" name="color"></p>                
                 <textarea name="texto" id="" cols="30" rows="10">Comentarios:</textarea>
