@@ -1,0 +1,52 @@
+main form select {
+    padding: 10px;
+    border: solid 1px black;
+    border-radius: 7px; 
+    font-weight: bold;
+    font-size: 15px;       
+}
+
+#section-weather-result {                
+    padding-top: 35px;
+    text-align: center;
+    justify-content: center;     
+}
+
+.card {    
+    -moz-box-shadow: 2px 1px 5px 3px rgba(0,0,0,0.75);
+    box-shadow: 2px 1px 5px 3px rgb(0 0 0 / 75%);
+    border-radius: 20px;
+    padding: .5rem;
+    width: 220px;
+    /* height: 250px; */
+    /* font-size: small; */
+    /* font-weight: bold; */
+    /* padding: 35px;  */    
+    margin-top: 20px;
+}
+
+main form button {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: var(--color-theme);
+    color: white;
+    border-style: none;
+    font-size: 15px;
+    font-weight: bold;  
+}
+
+main p {
+    justify-content: center;
+    text-align: center;
+    line-height: 8px;
+    font-size: 12px;
+    font-weight: bold;   
+}
+
+main h2 {
+    justify-content: center;
+    text-align: center;  
+}
+
+
+

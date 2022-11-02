@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima App</title>
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/pages/index.css">    
+    <link rel="shortcut icon" href="./img/clima.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>
+            <img src="./img/clima.png" alt="">            
+            <span>Clima App</span>
+        </h1>
+        <nav>
+            <ul>
+                <li class="current-page"><a href="#">Clima</a></li>
+                <li><a href="./add-city.html">Agregar Ciudad</a></li>
+                <li><a href="./help.html">Ayuda</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Contenido principal de la página -->
+    <main>
+        <h2>El Clima Ahora</h2>
+        <section id="form-city-list">
+            <form action="">
+                <select name="select" id="select">
+                    <option value="" disabled selected>Seleccionar Ciudad</option>
+                    <!-- <option value="ROSARIO">Rosario</option>
+                    <option value="RAFAELA">Rafaela</option> -->
+                </select>
+                <button onclick="">Consultar</button>
+            </form>                       
+        </section>        
+
+        <section id="section-weather-result">
+            <!-- <div class="card">
+                <h3>Rosario</h3>
+                <img src="http://openweathermap.org/img/wn/01d@2x.png" alt="">
+                <p>Temperatura: 25.31º</p>
+                <p>Sensación Térmica: 24.65º</p>
+                <p>Humedad: 29%</p>
+                <p>Velocidad de viento: 4.63km/h</p>
+                <p>Presión: 1011 P</p>
+            </div>-->
+        </section>
+    </main>
+    <footer>
+        <p>
+            Desarrollado por Maximiliano Shea Copyright © 2022 derechos reservados
+        </p>
+    </footer>
+    <script src="./js/common.js"></script>
+    <script src="./js/pages/index.js"></script>
+</body>
+
+</html>

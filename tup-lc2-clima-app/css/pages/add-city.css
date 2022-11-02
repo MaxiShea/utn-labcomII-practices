@@ -1,0 +1,68 @@
+form {
+    text-align: center;
+}
+
+main form button {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: var(--color-theme);
+    color: white;
+    border-style: none;
+    font-size: 15px;
+    font-weight: bold
+}
+
+form input {    
+    width: 85%;
+    padding: 10px;
+    margin: 7px;
+    border: solid 1px black;
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
+
+form p {
+    margin: 0 !important;
+    font-weight: 500;   
+}
+
+#section-weather-result {
+    display: block;   
+    padding: 35px;
+}
+
+/* #section-weather-result :nth-child(1){
+    background-color: #28a745;
+    
+}
+#section-weather-result :nth-child(2){
+    background-color: #dc3545;
+}
+#section-weather-result :nth-child(3){
+    background-color: #ffc107;
+} */
+
+#section-weather-result p{
+    padding: 15px;    
+    border-radius: 7px; 
+    width: 50%;
+    margin: 25px auto;
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+.danger {
+    background-color: #dc3545;
+}
+
+.todoOk {
+    background-color: #28a745;
+}
+
+.amarillo {
+    background-color: #ffc107;
+}
+
+
+

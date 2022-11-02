@@ -1,0 +1,68 @@
+main p {
+    text-align: center;
+}
+
+.form-help li {
+    display: grid;    
+}
+
+form input {
+    padding: 10px;
+    width: 400px;
+    margin-bottom: 10px;  
+    border: solid 1px black;
+    border-radius: 7px;  
+}
+
+section label {
+    font-weight: bold;
+}
+
+section form textarea {
+    border-radius: 7px;
+    border-color: solid black;
+}
+
+section form button {
+    margin-top: 20px;
+    padding: 12px;
+    color: #fff;
+    background-color: #00594c;
+    border-radius: 7px;
+    border: 0;
+    font-size: 15px;
+    font-weight: bold;   
+}
+
+.boton-help {
+    display: flex;
+    justify-content: center; 
+    margin-top: 15px;       
+}
+
+.boton-help button {    
+    margin: 5px;
+}
+
+#section-weather-result p {
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px;
+    background-color: #dc3545;
+    width: 35vw;
+    margin: 40px auto;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 12px;
+}
+
+#section-help-result p{
+    padding: 15px;
+    border-radius: 7px;
+    width: 50%;
+    margin: 25px auto;
+    color: white;
+    text-align: center;
+    display: block;
+    background-color: #dc3545;
+}
